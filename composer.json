@@ -22,6 +22,7 @@
     },
     "require-dev" : {
         "phpmd/phpmd" : "^2",
+        "zendframework/zend-db" : "^2",
         "zendframework/zend-captcha" : "^2",
         "zendframework/zend-test": "^3",
         "zfcampus/zf-development-mode": "^3",
