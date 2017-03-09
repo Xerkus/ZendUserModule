@@ -4,7 +4,8 @@
     "type": "library",
     "license": "BSD-3-Clause",
     "keywords": [
-        "zf2"
+        "zendframework",
+        "user"
     ],
     "homepage": "https://github.com/kenkataiwa/ZendUserModule",
     "authors": [
@@ -14,11 +15,6 @@
             "homepage": "http://kenkataiwa.com"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        }
-    },
     "require": {
         "php": "^5.6 || ^7.0",
         "zendframework/zend-mvc": "^3",
@@ -42,6 +38,14 @@
     "autoload-dev": {
         "psr-4": {
             "Zend\\UserModuleTest\\": "test/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "zf": {
+            "component": "Zend\\UserModule"
         }
     }
 }
