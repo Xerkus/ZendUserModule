@@ -1,11 +1,11 @@
-ZendUser
-=======
+ZendUserModule
+==============
 [![Build Status](https://travis-ci.org/kenkataiwa/ZendUserModule.png)](https://travis-ci.org/kenkataiwa/ZendUserModule)
-[![Code Coverage](https://scrutinizer-ci.com/g/kenkataiwa/ZendUser/badges/coverage.png?s=7d5932c77bea64a417ac8e3da51dca6da1fcb22e)](https://scrutinizer-ci.com/g/kenkataiwa/ZendUserModule/)
-[![Latest Stable Version](https://poser.pugx.org/kenkataiwa/ZendUserModule/v/stable.png)](https://packagist.org/packages/kenkataiwa/ZendUserModule)
-[![Latest Unstable Version](https://poser.pugx.org/kenkataiwa/ZendUserModule/v/unstable.png)](https://packagist.org/packages/kenkataiwa/ZendUserModule)
+[![Code Coverage](https://scrutinizer-ci.com/g/kenkataiwa/ZendUserModule/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kenkataiwa/ZendUserModule/)
+[![Latest Stable Version](https://poser.pugx.org/kenkataiwa/zend-user-module/v/stable.png)](https://packagist.org/packages/kenkataiwa/zend-user-module)
+[![Latest Unstable Version](https://poser.pugx.org/kenkataiwa/zend-user-module/v/unstable.png)](https://packagist.org/packages/kenkataiwa/zend-user-module)
 
-Created by Kenneth Kataiwa team
+Created by Kenneth Kataiwa
 
 Introduction
 ------------
@@ -24,8 +24,8 @@ Please use below table to figure out what version of ZendUserModule you should u
 
 | ZendUserModule version | Supported Zend Framework version |
 |-----------------|----------------------------------|
-| 1.x             | <= 2.5                           |
-| 2.x             | >= 2.6 or 3.x                    |
+| 2.x             | <= 2.5 or >= 2.6                        |
+| 3.x             | 3.x                    |
 
 Storage Adapter Modules
 -----------------------
