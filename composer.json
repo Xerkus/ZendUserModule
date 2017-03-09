@@ -1,0 +1,47 @@
+{
+    "name": "kenkataiwa/zend-user-module",
+    "description": "A generic user registration and authentication module for Zend Framework. Supports Zend\\Db and Doctrine2.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/kenkataiwa/ZendUserModule",
+    "authors": [
+        {
+            "name": "Kenneth Kataiwa",
+            "email": "mail@kenkataiwa.com",
+            "homepage": "http://kenkataiwa.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-mvc": "^3",
+        "zendframework/zend-authentication": "^2"
+    },
+    "require-dev" : {
+        "phpmd/phpmd" : "^2",
+        "zendframework/zend-captcha" : "^2",
+        "zendframework/zend-test": "^3",
+        "zfcampus/zf-development-mode": "^3",
+        "squizlabs/php_codesniffer" : "^2"
+    },
+    "suggest": {
+        "zendframework/zend-captcha" : "Zend\\Captcha if you want to use the captcha component"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zend\\UserModule\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zend\\UserModuleTest\\": "test/"
+        }
+    }
+}
