@@ -23,10 +23,10 @@
     },
     "require-dev" : {
         "phpmd/phpmd" : "^2",
-        "zendframework/zend-authentication": "^2.5",
-        "zendframework/zend-crypt": "^3.0",
-        "zendframework/zend-form": "^2.9",
-        "zendframework/zend-inputfilter": "^2.7",
+        "zendframework/zend-authentication": "^2.5.3",
+        "zendframework/zend-crypt": "^3.2.0",
+        "zendframework/zend-form": "^2.10.0",
+        "zendframework/zend-inputfilter": "^2.7.3",
         "zendframework/zend-loader": "^2.5",
         "zendframework/zend-modulemanager": "^2.7",
         "zendframework/zend-mvc": "^3.0",
@@ -39,12 +39,13 @@
         "zendframework/zend-http" : "^2.5",
         "zendframework/zend-mvc-plugin-flashmessenger": "^1.0",
         "zendframework/zend-i18n": "^2.7",
-        "zendframework/zend-mvc-plugin-prg": "^1.0",
-        "zendframework/zend-hydrator": "^2.0",
-        "zendframework/zend-captcha" : "^2",
-        "zendframework/zend-test": "^3",
-        "zfcampus/zf-development-mode": "^3",
-        "squizlabs/php_codesniffer" : "^2"
+        "zendframework/zend-mvc-i18n": "^1.0.0",
+        "zendframework/zend-mvc-plugin-prg": "^1.0.0",
+        "zendframework/zend-hydrator": "^2.2.1",
+        "zendframework/zend-captcha" : "^2.7.1",
+        "zendframework/zend-test": "^3.0.2",
+        "zfcampus/zf-development-mode": "^3.1.0",
+        "squizlabs/php_codesniffer" : "^2.8.1"
     },
     "suggest": {
         "zendframework/zend-captcha" : "Zend\\Captcha if you want to use the captcha component"
