@@ -9,9 +9,8 @@ return array(
 
     'router' => array(
         'routes' => array(
-            'zend-user' => array(
+            'zenduser' => array(
                 'type' => 'Literal',
-                'priority' => 1000,
                 'options' => array(
                     'route' => '/user',
                     'defaults' => array(

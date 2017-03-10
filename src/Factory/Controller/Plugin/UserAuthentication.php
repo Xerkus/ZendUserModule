@@ -16,13 +16,13 @@ use Zend\ServiceManager\Factory\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zend\UserModule\Controller;
 
-class Zend\UserModuleAuthentication implements FactoryInterface
+class UserAuthentication implements FactoryInterface
 {
     public function __invoke(ContainerInterface $serviceLocator, $requestedName, array $options = null)
     {
         $authService = $serviceLocator->get('zenduser_auth_service');
         $authAdapter = $serviceLocator->get('Zend\UserModule\Authentication\Adapter\AdapterChain');
-        $controllerPlugin = new Controller\Plugin\Zend\UserModuleAuthentication;
+        $controllerPlugin = new Controller\Plugin\UserAuthentication;
         $controllerPlugin->setAuthService($authService);
         $controllerPlugin->setAuthAdapter($authAdapter);
         return $controllerPlugin;

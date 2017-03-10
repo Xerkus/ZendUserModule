@@ -1180,10 +1180,7 @@ class UserControllerTest extends \PHPUnit_Framework_TestCase
     public function helperMockCallbackPluginManagerGet($key)
     {
         if ($key=="flashMessenger" && !array_key_exists($key, $this->pluginManagerPlugins)) {
-//             echo "\n\n";
-//             echo '$key: ' . $key . "\n";
-//             var_dump(array_key_exists($key, $this->pluginManagerPlugins), array_keys($this->pluginManagerPlugins));
-//             exit;
+
         }
         return (array_key_exists($key, $this->pluginManagerPlugins))
             ? $this->pluginManagerPlugins[$key]

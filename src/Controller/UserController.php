@@ -69,13 +69,13 @@ class UserController extends AbstractActionController
     /**
      * @param callable $redirectCallback
      */
-    public function __construct($redirectCallback)
-    {
-        if (!is_callable($redirectCallback)) {
-            throw new \InvalidArgumentException('You must supply a callable redirectCallback');
-        }
-        $this->redirectCallback = $redirectCallback;
-    }
+//    public function __construct($redirectCallback)
+//    {
+//        if (!is_callable($redirectCallback)) {
+//            throw new \InvalidArgumentException('You must supply a callable redirectCallback');
+//        }
+//        $this->redirectCallback = $redirectCallback;
+//    }
 
     /**
      * User page

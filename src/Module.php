@@ -18,7 +18,7 @@ class Module implements
     {
         return array(
             'factories' => array(
-                'ZendUserAuthentication' => 'Zend\UserModule\Factory\Controller\Plugin\UserAuthentication',
+                'zendUserAuthentication' => 'Zend\UserModule\Factory\Controller\Plugin\UserAuthentication',
             ),
         );
     }

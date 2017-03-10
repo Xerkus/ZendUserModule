@@ -46,7 +46,6 @@ class Db implements Storage\StorageInterface
             $this->clear();
             return true;
         }
-
         return false;
     }
 

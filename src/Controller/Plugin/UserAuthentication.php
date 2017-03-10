@@ -47,7 +47,7 @@ class UserAuthentication extends AbstractPlugin
     /**
      * Get authAdapter.
      *
-     * @return Zend\UserModuleAuthentication
+     * @return UserAuthentication
      */
     public function getAuthAdapter()
     {

@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Clayton Daley
  * Date: 5/6/2015
- * Time: 6:52 PM
+ * Time: 6:53 PM
  */
 
 namespace Zend\UserModule\Factory\View\Helper;
@@ -16,11 +16,11 @@ use Zend\ServiceManager\Factory\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zend\UserModule\View;
 
-class Zend\UserModuleDisplayName implements FactoryInterface
+class UserIdentity implements FactoryInterface
 {
     public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
-        $viewHelper = new View\Helper\Zend\UserModuleDisplayName;
+        $viewHelper = new View\Helper\Zend\UserModuleIdentity;
         $viewHelper->setAuthService($container->get('zenduser_auth_service'));
         return $viewHelper;
     }
