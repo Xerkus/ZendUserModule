@@ -36,7 +36,7 @@
         "zendframework/zend-mvc-i18n": "^1.0.0",
         "zendframework/zend-mvc-plugin-prg": "^1.0.0",
         "zendframework/zend-hydrator": "^2.2.1",
-        "zendframework/zend-captcha" : "^2.7.1",
+        "zendframework/zend-captcha" : "^2.7.1"
     },
     "require-dev" : {
         "phpmd/phpmd" : "^2",
