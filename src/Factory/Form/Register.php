@@ -19,7 +19,7 @@ class Register implements FactoryInterface
         $options = $serviceManager->get('zenduser_module_options');
         $form = new Form\Register(null, $options);
 
-        $form->setCaptchaElement($serviceManager->get('zenduser_captcha_element'));
+//        $form->setCaptchaElement($serviceManager->get('zenduser_captcha_element'));
         $form->setHydrator($serviceManager->get('zenduser_register_form_hydrator'));
         $form->setInputFilter(new Form\RegisterFilter(
             new Validator\NoRecordExists(array(
