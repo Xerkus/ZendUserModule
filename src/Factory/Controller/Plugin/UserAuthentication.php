@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Clayton Daley
- * Date: 5/6/2015
- * Time: 6:48 PM
- */
-
 namespace Zend\UserModule\Factory\Controller\Plugin;
 
 use Interop\Container\ContainerInterface;

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Clayton Daley
- * Date: 3/10/2015
- * Time: 9:34 AM
- */
 
 namespace Zend\UserModule\Factory\Form;
 

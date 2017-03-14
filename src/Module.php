@@ -28,6 +28,7 @@ class Module implements
         return array(
             'factories' => array(
                 'ZendUser\Controller\UserController' => 'Zend\UserModule\Factory\Controller\UserControllerFactory',
+                'zenduser' => 'Zend\UserModule\Factory\Controller\UserControllerFactory',
             ),
         );
     }

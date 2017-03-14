@@ -49,8 +49,10 @@ class UserHydrator extends ClassMethods
 
     protected function mapField($keyFrom, $keyTo, array $array)
     {
-        $array[$keyTo] = $array[$keyFrom];
-        unset($array[$keyFrom]);
+        if (in_array($keyFrom, $array) ) {
+            $array[$keyTo] = $array[$keyFrom];
+            unset($array[$keyFrom]);
+        }
         return $array;
     }
 }
