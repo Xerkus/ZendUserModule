@@ -117,7 +117,7 @@ class UserController extends AbstractActionController
         $form->setData($request->getPost());
 
         if (!$form->isValid()) {
-            $this->flashMessenger()->setNamespace('zenduser-login-form')->addMessage($this->failedLoginMessage);
+            $this->flashMessenger()->setNamespace('error')->addMessage($this->failedLoginMessage);
             return $this->redirect()->toUrl($this->url()->fromRoute(static::ROUTE_LOGIN).($redirect ? '?redirect='. rawurlencode($redirect) : ''));
         }
 
@@ -164,7 +164,7 @@ class UserController extends AbstractActionController
         $auth = $this->zendUserAuthentication()->getAuthService()->authenticate($adapter);
 
         if (!$auth->isValid()) {
-            $this->flashMessenger()->setNamespace('zenduser-login-form')->addMessage($this->failedLoginMessage);
+            $this->flashMessenger()->setNamespace('error')->addMessage($this->failedLoginMessage);
             $adapter->resetAdapters();
             return $this->redirect()->toUrl(
                 $this->url()->fromRoute(static::ROUTE_LOGIN) .

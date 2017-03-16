@@ -5,6 +5,9 @@ return array(
         'template_path_stack' => array(
             'zend-user' => __DIR__ . '/../view',
         ),
+        'template_path_stack' => [
+            __DIR__ . '/../view',
+        ],
     ),
 
     'router' => array(
